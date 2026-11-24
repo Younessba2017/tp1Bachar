@@ -47,6 +47,34 @@ public class Bb implements Serializable {
      * Dernière réponse de l'API OpenAI.
      */
     private String reponse;
+    private boolean debug;
+    private String texteRequeteJson;
+    private String texteReponseJson;
+
+    public boolean isDebug() {
+        return debug;
+    }
+
+    public void setDebug(boolean debug) {
+        this.debug = debug;
+    }
+
+    public String getTexteRequeteJson() {
+        return texteRequeteJson;
+    }
+
+    public void setTexteRequeteJson(String texteRequeteJson) {
+        this.texteRequeteJson = texteRequeteJson;
+    }
+
+    public String getTexteReponseJson() {
+        return texteReponseJson;
+    }
+
+    public void setTexteReponseJson(String texteReponseJson) {
+        this.texteReponseJson = texteReponseJson;
+    }
+
     /**
      * La conversation depuis le début.
      */
