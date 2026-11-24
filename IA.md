@@ -1,1 +1,1 @@
-Je n’ai pas utilisé l’IA
+J’ai aussi utilisé ChatGPT pour m’aider à rédiger le mail au professeur à partir de ma conversation avec Gemini, du JSON de la deuxième requête et des erreurs que j’ai obtenues pendant les tests.
